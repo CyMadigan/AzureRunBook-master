@@ -15,7 +15,7 @@
    update this runbook to contain your Azure subscription name and credential asset name.
 
 .NOTES
-	Author: System Center Automation Team fgfgfg
+	Author: System Center Automation Team 
 	Last Updated: 12/9/2014
 #>
 
