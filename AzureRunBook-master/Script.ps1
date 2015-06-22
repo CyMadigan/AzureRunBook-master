@@ -28,7 +28,7 @@
     runbook to work.
 #>
 
-workflow Sample-Managing-Azure
+workflow Sample-Managing-Azure12
 {
 	# Get the Azure connection
     $con = Get-AutomationConnection -Name 'AzureConnection'
