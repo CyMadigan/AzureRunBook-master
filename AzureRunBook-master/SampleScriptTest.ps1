@@ -19,7 +19,7 @@
 	$mycert = Get-Item Cert:\CurrentUser\My\<Azure Certificate Thumbprint>
 	$certData = $mycert.GetRawCertData()
 	$convert = [System.Convert]
-	$certString = $convert::toBase64String($certData)
+	$certString = $convert::toBase64String($certData)   
 
 	Please ensure the base64 certificate string, when pasted in, does not contain any line breaks.
 
