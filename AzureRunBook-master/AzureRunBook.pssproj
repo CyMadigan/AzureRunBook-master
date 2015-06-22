@@ -30,7 +30,7 @@
   <ItemGroup>
     <Compile Include="Connect-Azure.ps1" />
     <Compile Include="Get-AzureVMNamesSample.ps1" />
-    <Compile Include="Script.ps1" />
+    <Compile Include="SampleScriptTest.ps1" />
     <Compile Include="Sync-VsoGitRunbook.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
