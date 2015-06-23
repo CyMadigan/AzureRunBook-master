@@ -29,6 +29,7 @@
   <ItemGroup />
   <ItemGroup>
     <Compile Include="Connect-Azure.ps1" />
+    <Compile Include="DemoRunbookMCS.ps1" />
     <Compile Include="Get-AzureVMNamesSample.ps1" />
     <Compile Include="SampleScriptTest.ps1" />
     <Compile Include="Sync-VsoGitRunbook.ps1" />
