@@ -32,6 +32,7 @@
     <Compile Include="Get-AzureVMNamesSample.ps1" />
     <Compile Include="SampleScriptTest.ps1" />
     <Compile Include="Sync-VsoGitRunbook.ps1" />
+    <Compile Include="TestDemoRunbook.ps1" />
     <Compile Include="TestVikramPowerShell.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
