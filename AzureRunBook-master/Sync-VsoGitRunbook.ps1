@@ -96,7 +96,7 @@ workflow Sync-VsoGitRunbook
     }    
     $VSOAuthUserName = $VSOCred.UserName
     $VSOAuthPassword = $VSOCred.GetNetworkCredential().Password
-    
+    "$VSOAuthUserName"
     #Creating authorization header using 
     $basicAuth = ("{0}:{1}" -f $VSOAuthUserName,$VSOAuthPassword)
     $basicAuth = [System.Text.Encoding]::UTF8.GetBytes($basicAuth)
