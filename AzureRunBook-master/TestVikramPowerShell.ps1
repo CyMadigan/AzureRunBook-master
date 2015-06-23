@@ -8,7 +8,7 @@
 ###################################################################
 
 <#
-    This runbook Vikram shows how to connect to a Windows Azure subscription
+    This runbook  shows how to connect to a Windows Azure subscription
 	and perform a few basic operations using the Azure powershell module.
 
     NOTE: For this runbook to work you will need to create a Connection
