@@ -34,6 +34,7 @@
     <Compile Include="Sync-VsoGitRunbook.ps1" />
     <Compile Include="TestDemo2.ps1" />
     <Compile Include="TestDemoRunbook.ps1" />
+    <Compile Include="TestFirstScript.ps1" />
     <Compile Include="TestVikramPowerShell.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
