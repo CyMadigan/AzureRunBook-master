@@ -33,6 +33,8 @@ workflow Sample-Managing-Azure123
 	# Get the Azure connection
     $con = Get-AutomationConnection -Name 'AzureConnection'
 
+	"$con"
+
 	# Convert the password to a SecureString to be used in a PSCredential object
     $securepassword = ConvertTo-SecureString -AsPlainText -String $con.Password -Force
 
