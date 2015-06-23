@@ -29,7 +29,7 @@
 
 workflow Connect-Azure
 {
-   # By default, errors in PowerShell do not cause workflows to suspend, like exceptions do.
+   # By default, test errors in PowerShell do not cause workflows to suspend, like exceptions do.
 	# This means a runbook can still reach 'completed' state, even if it encounters errors
 	# during execution. The below command will cause all errors in the runbook to be thrown as
 	# exceptions, therefore causing the runbook to suspend when an error is hit.
