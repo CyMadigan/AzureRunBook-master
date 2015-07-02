@@ -28,7 +28,7 @@
     runbook to work.
 #>
 
-workflow TestFirstScript
+workflow DemoRunbookMadhavi
 {
 	# Get the Azure connection
     $con = Get-AutomationConnection -Name 'AzureConnection'
